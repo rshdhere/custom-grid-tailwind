@@ -1,3 +1,9 @@
+import { Toggle } from "@/components/mode-toggle";
+
 export default function Home() {
-  return <div className="bg-red-500">hello there love!</div>;
+  return (
+    <div>
+      <Toggle />
+    </div>
+  );
 }
